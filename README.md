@@ -1,3 +1,9 @@
+Required:
+go
+Ubuntu environment
+hyperledger frabic docker
+Edit the docker compose file to adjust to the required number and configuration of peer nodes
+
 cd fabric-samples/test-network
 
 ./network.sh up createChannel
