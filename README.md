@@ -4,7 +4,7 @@ Ubuntu environment
 hyperledger frabic docker
 Edit the docker compose file to adjust to the required number and configuration of peer nodes
 
-cd fabric-samples/test-network
+cd this filefolder
 
 ./network.sh up createChannel
 
