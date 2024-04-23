@@ -1,8 +1,11 @@
 Required:
 go
+
 Ubuntu environment
+
 hyperledger frabic docker
-Edit the docker compose file to adjust to the required number and configuration of peer nodes
+
+If want to extend this Test Network（add peer nodes or add org）, extend fabric key with cryptogen, update system-channel definition, compose orderer nodes, compose peer nodes, join application channel and deploy the chaincode.
 
 cd this filefolder
 
